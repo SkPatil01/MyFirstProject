@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BankSystem">
+  <test thread-count="5" name="CurrentAccount">
+    <classes>
+      <class name="TestNg.CurrentAcTestcase1"/>
+      <class name="TestNg.CurrentAcTestcase2"/>
+    </classes>
+  </test> <!-- CurrentAccount -->
+</suite> <!-- BankSystem -->
